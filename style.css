@@ -16,6 +16,8 @@ header {
     color: rgba(34, 206, 206, 0.767);
     text-decoration: none;
     font-size: 500%;
+    right: 40px;
+    bottom: 20px;
 }
 
 ul {
