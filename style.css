@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4d4d4d;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+.logo {
+    color: rgba(34, 206, 206, 0.767);
+    text-decoration: none;
+    font-size: 500%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4d4d4d;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px; /* Aumentei o padding */
+    text-decoration: none;
+    font-size: 120%; /* Aumentei o tamanho da fonte */
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between; /* Coloca os elementos na extremidade da tela */
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+}
+
+#main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.chart-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center; /* Alinha os elementos horizontalmente ao centro */
+}
+
+.description {
+    width: 80%; /* Ajusta a largura da descrição */
+    margin: auto; /* Centraliza a descrição */
+}
+
+.image-box {
+    width: 80%; /* Ajusta a largura da caixa de imagem */
+    margin-top: 20px;
+    margin: auto; /* Centraliza a caixa de imagem */
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.social-links {
+    margin-top: 20px;
+    text-align: center; /* Alinha os elementos horizontalmente ao centro */
+}
+
+.copy {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+#sidebar {
+    width: 15%;
+    background-color: #555;
+    color: #fff;
+    padding: 1px;
+    margin-top: 20px;
+}
