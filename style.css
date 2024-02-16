@@ -9,21 +9,21 @@ header {
     background-color: #4d4d4d;
     color: #fff;
     padding: 1px;
-    text-align: center;
+    text-align: right;
 }
 
 .logo {
     color: rgba(34, 206, 206, 0.767);
-    text-decoration: none;
-    font-size: 500%;
-    right: 40px;
-    bottom: 20px;
+    text-decoration: underline rgb(0, 0, 0);
+    font-size: 300%;
+    margin-right: 20px;
+    margin-bottom: 50px;
 }
 
 ul {
-    list-style-type: none;
+    list-style-type: unset;
     margin: 0;
-    padding: 0;
+    padding: 8px;
     overflow: hidden;
     background-color: #4d4d4d;
 }
@@ -36,8 +36,8 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 20px; /* Aumentei o padding */
-    text-decoration: none;
+    padding: 20px 20px; /* Aumentei o padding */
+    text-decoration: underline black;
     font-size: 120%; /* Aumentei o tamanho da fonte */
 }
 
@@ -47,7 +47,7 @@ li a:hover {
 
 #container {
     display: flex;
-    justify-content: space-between; /* Coloca os elementos na extremidade da tela */
+justify-content: space-between; /* Coloca os elementos na extremidade da tela */
     align-items: center; /* Alinha os elementos verticalmente ao centro */
 }
 
